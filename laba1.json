@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "brand": "Tesla",
+    "model": "Model S",
+    "year": 2023,
+    "engine": {
+      "type": "Electric",
+      "power": 150,
+      "battery_capacity": 75.0
+    },
+    "transmission": {
+      "type": "Automatic",
+      "gears": 1,
+      "mode": "Eco"
+    },
+    "body_type": "Sedan",
+    "vehicle_type": "Car"
+  },
+  {
+    "id": "2",
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "engine": {
+      "type": "Combustion",
+      "power": 203,
+      "fuel_type": "Petrol"
+    },
+    "transmission": {
+      "type": "Manual",
+      "gears": 6,
+      "clutch_type": "Hydraulic"
+    },
+    "body_type": "Sedan",
+    "vehicle_type": "Car"
+  },
+  {
+    "id": "3",
+    "brand": "honda",
+    "model": "x",
+    "year": 2025,
+    "engine": {
+      "type": "Combustion",
+      "power": 190,
+      "fuel_type": "Petrol"
+    },
+    "transmission": {
+      "type": "Manual",
+      "gears": 6,
+      "clutch_type": "Hydraulic"
+    },
+    "body_type": "Sedan",
+    "vehicle_type": "Car"
+  }
+]

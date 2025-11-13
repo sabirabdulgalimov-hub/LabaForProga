@@ -1,0 +1,56 @@
+<vehicles>
+  <vehicle>
+    <id>1</id>
+    <brand>Tesla</brand>
+    <model>Model S</model>
+    <year>2023</year>
+    <body_type>Sedan</body_type>
+    <range>600.0</range>
+    <engine>
+      <type>Electric</type>
+      <power>150</power>
+      <battery_capacity>75.0</battery_capacity>
+    </engine>
+    <transmission>
+      <type>Automatic</type>
+      <gears>1</gears>
+      <mode>Eco</mode>
+    </transmission>
+  </vehicle>
+  
+  <vehicle>
+    <id>2</id>
+    <brand>Toyota</brand>
+    <model>Camry</model>
+    <year>2022</year>
+    <body_type>Sedan</body_type>
+    <engine>
+      <type>Combustion</type>
+      <power>203</power>
+      <fuel_type>Petrol</fuel_type>
+    </engine>
+    <transmission>
+      <type>Manual</type>
+      <gears>8</gears>
+      <clutch_type>Hydraulic</clutch_type>
+    </transmission>
+  </vehicle>
+  
+  <vehicle>
+    <id>3</id>
+    <brand>honda</brand>
+    <model>x</model>
+    <year>2025</year>
+    <body_type>Sedan</body_type>
+    <engine>
+      <type>Combustion</type>
+      <power>190</power>
+      <fuel_type>Petrol</fuel_type>
+    </engine>
+    <transmission>
+      <type>Manual</type>
+      <gears>6</gears>
+      <clutch_type>Hydraulic</clutch_type>
+    </transmission>
+  </vehicle>
+</vehicles>
