@@ -4,12 +4,13 @@ from password_checker import is_strong_password
 class TestPasswordChecker(unittest.TestCase):
     def test_strong_password(self):
         self.assertTrue(is_strong_password("Secure123!"))
+        self.assertTrue(is_strong_password("Secure123434!"))
     
     def test_missing_lowercase(self):
         self.assertFalse(is_strong_password("SECURE123!"))
     
     def test_missing_uppercase(self):
-        self.assertFalse(is_strong_password("Secure123!"))
+        self.assertFalse(is_strong_password("secure123!"))
     
     def test_missing_digit(self):
         self.assertFalse(is_strong_password("Secure!!!"))
